@@ -1,0 +1,4 @@
+Strategy,Training Data,Epochs,Car AP,Pedestrian AP
+nuScenes-only,50 NS,24,0.218,0.107
+Mixed (MD + NS),700 MD + 50 NS,24,0.281,0.135
+Pretrain + Finetune,700 MD -> 50 NS,12 + 12,0.283,0.149
