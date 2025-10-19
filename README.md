@@ -25,6 +25,20 @@ The **pretraining → fine-tuning** approach achieved the best performance, demo
 
 ---
 
+## Training Setup
+
+- **Model:** BEVDet-R50 (camera-only, 6 views)
+- **Input resolution:** 704×256
+- **Optimizer:** AdamW  
+- **Training schedule:** 24 epochs total
+- **Batch / LR:** adjusted for single-GPU training
+- **Evaluation:** nuScenes validation set, classes: **Car** and **Pedestrian**
+- **Metric:** Average Precision (AP)
+
+All models were trained using the open-source [BEVDet](https://github.com/HuangJunJie2017/BEVDet) framework under the same settings to ensure a fair comparison.
+
+---
+
 ## Example Scene Generation and Enhancement
 
 Below is an example 6-camera scene generated in CARLA and its visually enhanced version produced using MagicDrive.
