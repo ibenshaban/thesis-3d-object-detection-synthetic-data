@@ -54,6 +54,7 @@ Below is an example 6-camera scene generated in CARLA and its visually enhanced 
 ## Key Results
 
 All results are reported on the **nuScenes validation set**, evaluated for the **Car** and **Pedestrian** classes (Average Precision, AP).
+Dataset sizes indicate the number of driving scenes used for training.
 
 | Strategy | Training Data | Epochs | Car AP | Pedestrian AP |
 |-----------|----------------|--------|:-------:|:--------------:|
